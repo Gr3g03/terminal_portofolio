@@ -77,7 +77,7 @@ export default {
             fn: () => {
                 return `
                     Cool projects I have worked on.\n---\n
-                    'grigor'                         | 'terminal portfolio'   | 'javascript'
+                    'ashterm'                         | 'terminal portfolio'   | 'javascript'
                     'octocolor'                       | 'github profile color' | 'javascript'
                     'kanna-chan'                      | 'Discord-Bot'          | 'python'
                     'wordinal'                        | 'wordle-on-terminal'   | 'javascript'

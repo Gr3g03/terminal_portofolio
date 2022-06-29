@@ -49,7 +49,7 @@ export default function Term() {
                     usage: 'cd <directory>',
                     fn: (...args) => {
                         if (args.length===1 && args[0]==='..') {
-                            if (prompt === 'you@/grigor:~$ ') {
+                            if (prompt === 'you@/ashterm:~$ ') {
                                 return 'cannot go up'
                             } else {
                                 setPrompt(prompt.substring(0, prompt.lastIndexOf('/'))+":~$ ")
